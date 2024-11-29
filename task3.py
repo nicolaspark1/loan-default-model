@@ -1,17 +1,14 @@
 import pandas as pd
-
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, classification_report
-
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import roc_auc_score, classification_report
-
 import matplotlib.pyplot as plt
 import numpy as np
 
 
 # Load the dataset
-file_path = 'Task 3 and 4_Loan_Data.csv'
+file_path = 'task_3_4.csv'
 data = pd.read_csv(file_path)
 
 # Look at the first few rows
