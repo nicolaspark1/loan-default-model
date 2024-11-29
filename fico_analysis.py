@@ -36,6 +36,7 @@ plt.show()
 # Step 2: Optimize buckets
 optimal_buckets = optimize_buckets(data, num_buckets=5)
 
+
 print("\nOptimal Buckets:")
 for b in optimal_buckets:
     print(f"FICO Range: {b[0]} - {b[1]}")
